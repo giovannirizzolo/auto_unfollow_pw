@@ -1,0 +1,23 @@
+{
+  "name": "auto-unfollow-pw",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --incremental -p tsconfig.json",
+    "test": "playwright test -c tests",
+    "testui": "npx playwright test --ui"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@playwright/test": "^1.47.2",
+    "@types/node": "^22.5.5"
+  },
+  "dependencies": {
+    "dotenv": "^16.5.0",
+    "playwright": "^1.51.1",
+    "playwright-core": "^1.51.1"
+  }
+}
