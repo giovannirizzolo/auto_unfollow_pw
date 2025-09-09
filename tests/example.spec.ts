@@ -40,8 +40,8 @@ test.beforeAll(async () => {
 //   //   force: true
 //   // })
 //   expect(userNameInput).toBeVisible && expect(passwordInput).toBeVisible
-//   await userNameInput.fill("dario99__")
-//   await passwordInput.fill("paktuc-rezvEv-5vofzi")
+//   await userNameInput.fill("username")
+//   await passwordInput.fill("pwd")
 
 //   expect(loginBtn).toBeEnabled
 
