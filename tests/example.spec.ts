@@ -72,8 +72,8 @@ test.afterAll(async () => {
 //   //   force: true
 //   // })
 //   expect(userNameInput).toBeVisible && expect(passwordInput).toBeVisible
-//   await userNameInput.fill("dario99__")
-//   await passwordInput.fill("paktuc-rezvEv-5vofzi")
+//   await userNameInput.fill("user")
+//   await passwordInput.fill("pwd")
 
 //   expect(loginBtn).toBeEnabled
 
