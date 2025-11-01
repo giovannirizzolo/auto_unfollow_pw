@@ -11,3 +11,4 @@ lists/
 
 .DS_Store
 dist/
+.playwright-user-data
